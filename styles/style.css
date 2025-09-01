@@ -63,6 +63,13 @@ White: #FFF
   padding: 1rem;
 }
 
+#WoS {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    text-decoration: underline 0.2rem #00B172 ;
+}
+
 .content-container{
     display: flex;
     justify-content: space-between;
@@ -71,7 +78,9 @@ White: #FFF
 }
 
 .content-container h3{
-    color: green;
+    color: #00B172;
+    padding-bottom: 1rem;
+    
 }
 
 .block{
@@ -80,18 +89,18 @@ flex-direction: column;
 align-items: center;
 text-align: center;
 flex: 1;
-
 }
 
 .block-text{
     display: flex;
     align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 .content-container img{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
     width: 30%;
-
+    height: auto;
 }
+
+
