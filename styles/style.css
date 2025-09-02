@@ -13,6 +13,48 @@ White: #FFF
 main {
    max-width: 1200px;
    margin: 0 auto;
+   color: #1A1A1A;
+}
+
+
+
+
+
+.logo {
+  height: 40px;
+  cursor: pointer;
+}
+
+.logo img {
+  height: 100%;
+  width: auto;
+}
+
+.navbar {
+  position: fixed;          
+  top: 0;
+  left: 0;
+  width: 100%;             
+  height: 80px;
+  background-color: #fff; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.links li a {
+  text-decoration: none;
+  color: #1A1A1A;
+  font-weight: bold;
+  padding: 1rem;
 }
 
 
@@ -31,44 +73,6 @@ main {
   margin: 0;
 }
 
-
-.navbar {
-  position: fixed;          
-  top: 0;
-  left: 0;
-  width: 100%;             
-  height: 80px;
-  background-color: #fff; 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-
-.logo {
-  height: 40px;
-  cursor: pointer;
-}
-
-.logo img {
-  height: 100%;
-  width: auto;
-}
-
-.links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-  margin: 0;
-  padding: 0;
-}
-
-.links li a {
-  text-decoration: none;
-  color: #1A1A1A;
-  font-weight: bold;
-  padding: 1rem;
-}
 
 #WoS {
   text-align: center;
