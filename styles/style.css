@@ -38,6 +38,11 @@ White: #FFF
 
 }
 
+.navbar a:hover{
+   background-color: #00B172;
+}
+
+
 .logo {
   height: 40px;
   cursor: pointer;
@@ -89,6 +94,7 @@ flex-direction: column;
 align-items: center;
 text-align: center;
 flex: 1;
+padding-bottom: 1rem;
 }
 
 .block-text{
