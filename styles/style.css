@@ -10,7 +10,7 @@ White: #FFF
   box-sizing: border-box;
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
   padding-top: 80px;
@@ -18,18 +18,13 @@ body{
   animation-duration: 1s;
   animation-timing-function: ease-in;
   animation-delay: 0s;
-
 }
 
 main {
-   width: 100%;
-   margin: 0;
-   color: #1A1A1A;
+  width: 100%;
+  margin: 0;
+  color: #1A1A1A;
 }
-
-
-
-
 
 .logo {
   height: 40px;
@@ -53,7 +48,7 @@ main {
   align-items: center;
 }
 
-.navbar a:hover{
+.navbar a:hover {
   background-color:#00B172 ;
   border: #00B172;
   border-radius: 20px;
@@ -75,7 +70,6 @@ main {
   padding: 1rem;
 }
 
-
 #image-container {
   background-image: url('../images/landing.jpg');
   background-size: cover;
@@ -91,7 +85,6 @@ main {
   margin: 0;
 }
 
-
 #WoS {
   text-align: center;
   padding-top: 1rem;
@@ -103,13 +96,11 @@ main {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
-
 }
 
 .content-container h3 {
   color: #00B172;
   padding-bottom: 1rem;
-    
 }
 
 .block {
@@ -181,21 +172,19 @@ main {
   object-fit: cover;
 }
 
-#screenshot {
-  /* margin-left: auto; */ 
+#screenshot { 
   display: flex;
-  justify-content: flex-end;
-  
+  justify-content: flex-end;  
 }
 
 #screenshot img {
   max-width: 50%;
   height: auto;
 }
+
 #screenshot a {
   display: flex;
   justify-content: flex-end;
-  z-index: 10;
 }
 
 @media (max-width: 760px) {
@@ -211,10 +200,13 @@ main {
 
   #text-left {
     max-width: 100%;
+    padding-bottom: 2rem;
   }
 
   #screenshot img {
     max-width: 80%;
+    max-height: 70%;
+    padding-top: 3rem;
   }
 }
 
